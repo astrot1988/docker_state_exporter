@@ -51,5 +51,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: astrot1988/docker_state_exporter:latest
+          tags: ghcr.io/astrot1988/docker_state_exporter:latest
           labels: ${{ steps.meta.outputs.labels }}
